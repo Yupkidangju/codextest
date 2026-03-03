@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>바이브 코딩 시대의 전통 개발자 비가</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="topbar glass">
+      <h1>바이브 코딩 시대의 전통 개발자 비가</h1>
+      <div class="hud">
+        <span id="pageIndicator">1 / 8</span>
+        <button id="musicBtn" aria-label="음악 토글">음악 시작</button>
+      </div>
+    </header>
+
+    <main id="stage" class="stage">
+      <section class="scene theme-glass active" data-transition="fade">
+        <h2>1. 빌드 로그는 아직도 나를 기억한다</h2>
+        <p>코드리뷰의 온도는 차갑고, 프롬프트는 뜨겁다. 나는 그 사이에서 서서히 투명해진다.</p>
+      </section>
+      <section class="scene theme-neon" data-transition="slide">
+        <h2>2. 네온 아래 야근의 서약</h2>
+        <p>키보드 소리는 심장 박동처럼 빠르고, 자동완성은 내 문장을 먼저 끝내버렸다.</p>
+      </section>
+      <section class="scene theme-crt" data-transition="zoom">
+        <h2>3. 레거시는 유령처럼 깜박인다</h2>
+        <p>오래된 규약은 사라지지 않는다. 다만 더 낮은 주파수로 내 잠을 깨운다.</p>
+      </section>
+      <section class="scene theme-ash" data-transition="rotate">
+        <h2>4. 무채색 스프린트</h2>
+        <p>속도는 빨라졌는데, 왜 마음은 늦어질까. 커밋 메시지에 감정은 없다.</p>
+      </section>
+      <section class="scene theme-cyber" data-transition="blur">
+        <h2>5. 생산성 그래프의 그림자</h2>
+        <p>대시보드는 치솟고, 자존감은 하강한다. 숫자는 진실이지만 전부는 아니다.</p>
+      </section>
+      <section class="scene theme-aurora" data-transition="flip">
+        <h2>6. 정체성의 분기점</h2>
+        <p>나는 코더인가, 조율자인가. 혹은 질문을 가장 잘 쓰는 사람이 되어야 하는가.</p>
+      </section>
+      <section class="scene theme-alarm" data-transition="ripple">
+        <h2>7. 붉은 경보, 감정 덤프</h2>
+        <p>클릭할 때마다 파편이 튄다. 버그보다 아픈 건 익숙함이 무너지는 소리다.</p>
+      </section>
+      <section class="scene theme-dawn" data-transition="curtain">
+        <h2>8. 새벽 커밋의 다짐</h2>
+        <p>도구가 바뀌어도 품질은 사람의 집요함에서 온다. 오늘도 나는 배포한다.</p>
+      </section>
+      <div id="fxLayer" class="fx-layer"></div>
+    </main>
+
+    <footer class="controls glass">
+      <button id="prevBtn">이전</button>
+      <span>힌트: 화면 아무 곳이나 클릭해 감정을 터뜨리세요.</span>
+      <button id="nextBtn">다음</button>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
